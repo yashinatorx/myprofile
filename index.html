@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./yash.jpg" type="image/x-icon">
+   
+</head>
+<body>
+    <div class="wrapper">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+            <div class="card-wrapper">
+                <div>
+                    <img src="yash.jpg" alt="user"/>
+            </div>
+            <div class="user-name">
+                 <h1>Yash Soni</h1>
+            </div>
+            <div class="designaiton">
+                 <h1>Web Developer</h1>
+            </div>
+            <div class="bottom-group">
+                <button onclick="openModal()" class="btn-share btn-card">
+                    <i class="fa-solid fa-share"></i>
+                     <div>Share My profile</div>
+                </button>
+                <button class="btn-follow btn-card">follow me </button>
+        </div>
+        </div>
+    </div>
+    
+    <div class="modal">
+        <div class="modal-header">
+            <h1>Share My Profile</h1>
+            <div>
+                <i onclick="closeModal()" class="fa-solid fa-xmark close"></i>
+            </div>
+        </div>
+        <div>
+            <h3>Share this via </h3>
+            <div class="icon-container">
+                <a href="https://www.facebook.com/profile.php?id=100014788117957" class="icon" id="facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href=" https://www.instagram.com/_yash__soni._?igsh=MmVlMjlkMTBhMg==" class="icon" id="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="tel:+916263634900" class="icon" id="call">
+                    <i class="fa-solid fa-phone"></i>
+                </a>
+                <a href="https://wa.me/+916263634900" class="icon" id="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="t.me/Soniji4900" class="icon" id="telegram">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="overlay" onclick="closeModal()"></div>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</body>
+</html>
